@@ -139,4 +139,7 @@
 
 @media screen and (max-height: 450px) {
     .sidenav a {font-size: 10px}
+    .navigation{
+      width: 50%;
+    }
   }
