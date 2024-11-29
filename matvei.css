@@ -88,6 +88,52 @@
 }
 
 
+
+
+/*Content*/
+.content {
+  padding: 10%;
+  position: static;
+  z-index: 1;
+  }
+
+.halves{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+}
+
+.title{
+  color: #b01450; 
+  font-family: Cambria; 
+  font-variant: small-caps; 
+  font-weight: 600; 
+  padding: 10px;  
+  text-align: left;
+  font-size: 40px;
+}
+
+.subtitle{
+  color:#111111;
+  font-family: Cambria;
+  font-variant: normal;
+  font-weight: 400;
+  padding: 10px;
+  padding-top: 0px;
+  text-align:left;
+  font-size: 25px;
+}
+
+.text{
+  color:#111111;
+  font-family: Cambria;
+  font-variant: normal;
+  font-weight: 300;
+  padding: 10px;
+  text-align:left;
+  font-size: 15px;
+}
+
 /*Side Menu*/
 
 
@@ -139,6 +185,6 @@
 
 
 @media only screen and (max-width: 800px) {
-    .sidenav a {font-size: 10px}
+    .sidenav a {font-size: 20px}
     .navigation{width: 50%;}
   }
