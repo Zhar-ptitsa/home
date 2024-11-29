@@ -93,14 +93,30 @@
 /*Content*/
 .content {
   padding: 10%;
+  padding-top:5%;
   position: static;
   z-index: 1;
   }
+
+.supertitle{
+  color: #b01450; 
+  font-family: Cambria; 
+  font-variant: small-caps; 
+  font-weight: 600; 
+  padding: 10px;  
+  text-align: center;
+  font-size: 50px;}
 
 .halves{
   display: inline-block;
   width: 50%;
   margin: 0;
+}
+
+.halfimage{
+  max-width: 90%;
+  max-height:90%;
+  margin: 2%;
 }
 
 .title{
@@ -187,7 +203,8 @@
 @media only screen and (max-width: 800px) {
     .sidenav a {font-size: 20px}
     .navigation{width: 50%;}
+    .supertitle{font-size:40px;}
     .title{font-size:25px;}
-    .substitle{font-size:15px;}
+    .subtitle{font-size:15px;}
     .text{font-size:10px;}
   }
